@@ -56,49 +56,49 @@ blockquote {
 
 @font-face {
   font-family: 'Sansation';
-  src: local("Sansation Regular"), url("/wp-content/themes/mortalkombat/fonts/sansation/Sansation_Regular.ttf") format("truetype");
+  src: local("Sansation Regular"), url("../fonts/sansation/Sansation_Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Sansation';
-  src: local("Sansation Italic"), url("/wp-content/themes/mortalkombat/fonts/sansation/Sansation_Italic.ttf") format("truetype");
+  src: local("Sansation Italic"), url("../fonts/sansation/Sansation_Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
   font-display: swap; }
 
 @font-face {
   font-family: 'Sansation';
-  src: local("Sansation Light"), url("/wp-content/themes/mortalkombat/fonts/sansation/Sansation_Light.ttf") format("truetype");
+  src: local("Sansation Light"), url("../fonts/sansation/Sansation_Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Sansation Light Italic';
-  src: local("Sansation Light Italic"), url("/wp-content/themes/mortalkombat/fonts/sansation/Sansation_Light_Italic.ttf") format("truetype");
+  src: local("Sansation Light Italic"), url("../fonts/sansation/Sansation_Light_Italic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
   font-display: swap; }
 
 @font-face {
   font-family: 'Sansation';
-  src: local("Sansation Bold"), url("/wp-content/themes/mortalkombat/fonts/sansation/Sansation_Bold.ttf") format("truetype");
+  src: local("Sansation Bold"), url("../fonts/sansation/Sansation_Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Sansation';
-  src: local("Sansation Bold Italic"), url("/wp-content/themes/mortalkombat/fonts/sansation/Sansation_Bold_Italic.ttf") format("truetype");
+  src: local("Sansation Bold Italic"), url("../fonts/sansation/Sansation_Bold_Italic.ttf") format("truetype");
   font-weight: 700;
   font-style: italic;
   font-display: swap; }
 
 @font-face {
   font-family: 'Montserrat';
-  src: local("Montserrat-ExtraBold"), local("Roboto-Thin"), url("/wp-content/themes/mortalkombat/fonts/sansation/Montserrat-ExtraBold.ttf") format("truetype");
+  src: local("Montserrat-ExtraBold"), local("Roboto-Thin"), url("../fonts/sansation/Montserrat-ExtraBold.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
   font-display: swap; }
@@ -110,7 +110,7 @@ body {
   color: #333131;
   letter-spacing: normal;
   font-size: 16px;
-  background: url("/wp-content/themes/mortalkombat/img/pattern.jpg") repeat;
+  background: url("../img/pattern.jpg") repeat;
   -webkit-font-smoothing: antialiased; }
 
 h1, .h1 {
@@ -157,81 +157,81 @@ img {
   display: inline-block;
   width: 15px;
   height: 17px;
-  background: url("/wp-content/themes/mortalkombat/img/icon-top_games.svg") 0 0 no-repeat;
+  background: url("../img/icon-top_games.svg") 0 0 no-repeat;
   margin-right: 5px; }
 
 .icon-new_games {
   display: inline-block;
   width: 18px;
   height: 17px;
-  background: url("/wp-content/themes/mortalkombat/img/icon-new_games.svg") 0 0 no-repeat;
+  background: url("../img/icon-new_games.svg") 0 0 no-repeat;
   margin-right: 5px; }
 
 .icon-best_games {
   display: inline-block;
   width: 18px;
   height: 17px;
-  background: url("/wp-content/themes/mortalkombat/img/icon-top_games.svg") 0 0 no-repeat;
+  background: url("../img/icon-top_games.svg") 0 0 no-repeat;
   margin-right: 5px; }
 
 .icon-coloring_games {
   display: inline-block;
   width: 15px;
   height: 17px;
-  background: url("/wp-content/themes/mortalkombat/img/icon-coloring_games.svg") 0 0 no-repeat;
+  background: url("../img/icon-coloring_games.svg") 0 0 no-repeat;
   margin-right: 5px; }
 
 .icon-loupe {
   display: block;
   width: 24px;
   height: 24px;
-  background: url("/wp-content/themes/mortalkombat/img/icon-loupe.svg") 0 0 no-repeat; }
+  background: url("../img/icon-loupe.svg") 0 0 no-repeat; }
 
 .icon-arrow-prev {
   display: block;
   width: 24px;
   height: 24px;
-  background: url("/wp-content/themes/mortalkombat/img/icon-arrow-prev.svg") 0 0 no-repeat; }
+  background: url("../img/icon-arrow-prev.svg") 0 0 no-repeat; }
 
 .icon-arrow-next {
   display: block;
   width: 22px;
   height: 23px;
-  background: url("/wp-content/themes/mortalkombat/img/icon-arrow-next.svg") 0 0 no-repeat;
+  background: url("../img/icon-arrow-next.svg") 0 0 no-repeat;
   transform: rotate(180deg); }
 
 .icon-views {
   display: block;
   width: 14px;
   height: 14px;
-  background: url("/wp-content/themes/mortalkombat/img/icon-show.svg") 0 0 no-repeat;
+  background: url("../img/icon-show.svg") 0 0 no-repeat;
   margin-right: 5px; }
 
 .icon-views-orange {
   display: block;
   width: 14px;
   height: 14px;
-  background: url("/wp-content/themes/mortalkombat/img/icon-show-orange.svg") 0 0 no-repeat;
+  background: url("../img/icon-show-orange.svg") 0 0 no-repeat;
   margin-right: 5px; }
 
 .icon-fullscreen {
   display: block;
   width: 14px;
   height: 14px;
-  background: url("/wp-content/themes/mortalkombat/img/icon-fullscreen.svg") 0 0 no-repeat;
+  background: url("../img/icon-fullscreen.svg") 0 0 no-repeat;
   background-size: cover; }
 
 .icon-like {
   display: block;
   width: 15px;
   height: 15px;
-  background: url("/wp-content/themes/mortalkombat/img/icon-like.svg") 0 0 no-repeat; }
+  background: url("../img/icon-like.svg") 0 0 no-repeat; }
 
 .icon-dislike {
   display: block;
   width: 15px;
   height: 15px;
-  background: url("/wp-content/themes/mortalkombat/img/icon-dislike.svg") 0 0 no-repeat; }
+  background: url("../img/icon-dislike.svg") 0 0 no-repeat; }
 
 .btn-search {
   display: flex;
@@ -241,11 +241,11 @@ img {
   height: 60px;
   border-radius: 50%;
   outline: 0;
-  background: url("/wp-content/themes/mortalkombat/img/btn-search-bg-normal.png") 0 0 no-repeat; }
+  background: url("../img/btn-search-bg-normal.png") 0 0 no-repeat; }
   .btn-search:hover {
-    background: url("/wp-content/themes/mortalkombat/img/btn-search-bg-hover.png") 0 0 no-repeat; }
+    background: url("../img/btn-search-bg-hover.png") 0 0 no-repeat; }
   .btn-search.active, .btn-search:active {
-    background: url("/wp-content/themes/mortalkombat/img/btn-search-bg-active.png") 0 0 no-repeat; }
+    background: url("../img/btn-search-bg-active.png") 0 0 no-repeat; }
 
 .btn-play {
   display: flex;
@@ -255,13 +255,13 @@ img {
   height: 58px;
   border-radius: 30px;
   outline: 0;
-  background: url("/wp-content/themes/mortalkombat/img/btn-play-bg-normal.png") 0 0 no-repeat;
+  background: url("../img/btn-play-bg-normal.png") 0 0 no-repeat;
   background-size: cover; }
   .btn-play:hover {
-    background: url("/wp-content/themes/mortalkombat/img/btn-play-bg-hover.png") 0 0 no-repeat;
+    background: url("../img/btn-play-bg-hover.png") 0 0 no-repeat;
     background-size: cover; }
   .btn-play:active {
-    background: url("/wp-content/themes/mortalkombat/img/btn-play-bg-active.png") 0 0 no-repeat;
+    background: url("../img/btn-play-bg-active.png") 0 0 no-repeat;
     background-size: cover; }
   .btn-play span {
     font-family: 'Montserrat', sans-serif;
@@ -277,24 +277,24 @@ img {
   height: 50px;
   outline: 0;
   border-radius: 30px;
-  background: url("/wp-content/themes/mortalkombat/img/btn-play-bg-normal.png") 0 0 no-repeat;
+  background: url("../img/btn-play-bg-normal.png") 0 0 no-repeat;
   background-size: cover; }
   .btn-fullscreen:hover {
-    background: url("/wp-content/themes/mortalkombat/img/btn-play-bg-hover.png") 0 0 no-repeat;
+    background: url("../img/btn-play-bg-hover.png") 0 0 no-repeat;
     background-size: cover; }
   .btn-fullscreen:active {
-    background: url("/wp-content/themes/mortalkombat/img/btn-play-bg-active.png") 0 0 no-repeat;
+    background: url("../img/btn-play-bg-active.png") 0 0 no-repeat;
     background-size: cover; }
   .btn-fullscreen span {
     display:none; }
 
 .page {
   width: 100%;
-  /*background: url("/wp-content/themes/mortalkombat/img/pattern.jpg") repeat;*/ }
+  /*background: url("../img/pattern.jpg") repeat;*/ }
 
 .header {
   position: relative;
-  background: url("/wp-content/themes/mortalkombat/img/header-bg.jpg") top center no-repeat;
+  background: url("../img/header-bg.jpg") top center no-repeat;
   margin-bottom: 30px; }
   .header .wrapper {
     max-width: 1140px;
@@ -339,12 +339,12 @@ img {
       border-radius: 5px;
       z-index: 1;
       overflow: hidden;
-      border-top: 3px solid #77a52b;
-      border-bottom: 3px solid #77a52b;
-      background: -moz-linear-gradient(0deg, #77a52b 0%, #77a52b 100%);
-      background: -webkit-linear-gradient(0deg, #77a52b 0%, #77a52b 100%);
-      background: linear-gradient(0deg, #77a52b 0%, #77a52b 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#77a52b",endColorstr="#77a52b",GradientType=1); }
+      border-top: 3px solid #6a9424;
+      border-bottom: 3px solid #6a9424;
+      background: -moz-linear-gradient(0deg, #6a9424 0%, #6a9424 100%);
+      background: -webkit-linear-gradient(0deg, #6a9424 0%, #6a9424 100%);
+      background: linear-gradient(0deg, #6a9424 0%, #6a9424 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6a9424",endColorstr="#6a9424",GradientType=1); }
       .menu ul li a {
         display: flex;
         justify-content: center;
@@ -360,16 +360,16 @@ img {
           color: #fff; }
       .menu ul li:hover {
         border-top: 3px solid #b4730d;
-        border-bottom: 3px solid #77a52b;
+        border-bottom: 3px solid #6a9424;
         background: -moz-linear-gradient(0deg, #b45004 0%, #b4770e 100%);
         background: -webkit-linear-gradient(0deg, #b45604 0%, #b4740d 100%);
         background: linear-gradient(0deg, #b44904 0%, #b4740d 100%); }
       .menu ul li.active, .menu ul li:active {
-        border-bottom: 3px solid #77a52b;
-        border-top: 3px solid #77a52b;
-        background: -moz-linear-gradient(180deg, #77a52b 0%, #77a52b 100%);
-        background: -webkit-linear-gradient(180deg, #77a52b 0%, #77a52b 100%);
-        background: linear-gradient(180deg, #77a52b 0%, #77a52b 100%); }
+        border-bottom: 3px solid #6a9424;
+        border-top: 3px solid #6a9424;
+        background: -moz-linear-gradient(180deg, #6a9424 0%, #6a9424 100%);
+        background: -webkit-linear-gradient(180deg, #6a9424 0%, #6a9424 100%);
+        background: linear-gradient(180deg, #6a9424 0%, #6a9424 100%); }
       .menu ul li:first-child {
         border-bottom-left-radius: 30px;
         border-top-left-radius: 30px;
@@ -431,11 +431,11 @@ img {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 78px;
-    background: #742322;
-    background: -moz-linear-gradient(0deg, #742322 0%, #742322  100%);
-    background: -webkit-linear-gradient(0deg, #742322 0%, #742322  100%);
-    background: linear-gradient(0deg, #742322 0%, #742322  100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#742322",endColorstr="#742322",GradientType=1); }
+    background: #cc7853;
+    background: -moz-linear-gradient(0deg, #cc7853 0%, #cc7853  100%);
+    background: -webkit-linear-gradient(0deg, #cc7853 0%, #cc7853  100%);
+    background: linear-gradient(0deg, #cc7853 0%, #cc7853  100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cc7853",endColorstr="#cc7853",GradientType=1); }
   .sidebar__content {
     margin-top: 5px;
     padding: 16px 0 20px 0;
@@ -453,11 +453,11 @@ img {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 78px;
-    background: #0e4919;
-    background: -moz-linear-gradient(0deg, #0e4919 0%, #0e4919 100%);
-    background: -webkit-linear-gradient(0deg, #0e4919 0%, #0e4919 100%);
-    background: linear-gradient(0deg, #0e4919 0%, #0e4919 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e4919",endColorstr="#0e4919",GradientType=1); }
+    background: #3f8151;
+    background: -moz-linear-gradient(0deg, #3f8151 0%, #3f8151 100%);
+    background: -webkit-linear-gradient(0deg, #3f8151 0%, #3f8151 100%);
+    background: linear-gradient(0deg, #3f8151 0%, #3f8151 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f8151",endColorstr="#3f8151",GradientType=1); }
 	
 	
   .main__content {
@@ -467,7 +467,7 @@ img {
     border-bottom-right-radius: 20px; }
 
 .best-games {
-  background: #de3635; }
+  background: #fedfb3; }
   .best-games__list li {
     margin-bottom: 10px; }
     .best-games__list li a {
@@ -475,7 +475,7 @@ img {
       height: 100%;
       display: flex;
       align-items: center;
-      background: #de3635;
+      background: #fedfb3;
       padding: 0 20px; }
       .best-games__list li a span {
         color: #000000; }
@@ -494,13 +494,13 @@ img {
       margin-bottom: 0; }
 
 .vouted-games {
-  background: #de3635; }
+  background: #fedfb3; }
   .vouted-games__list li a {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
-    background: #de3635;
+    background: #fedfb3;
     padding: 5px 20px; }
     .vouted-games__list li a .name {
       color: #ffffff; }
@@ -530,7 +530,7 @@ img {
 
 .recommended-games {
   padding: 28px 30px 29px 30px;
-  background: #1f8434; }
+  background: #467d55; }
   .recommended-games__thumb {
     display: block;
     margin: 5px; }
@@ -549,11 +549,11 @@ img {
     transform: translateY(-50%);
     width: 58px;
     height: 58px;
-    background: url("/wp-content/themes/mortalkombat/img/slider-arrow-bg-normal.png") 0 0 no-repeat; }
+    background: url("../img/slider-arrow-bg-normal.png") 0 0 no-repeat; }
     .recommended-games .slick-prev:hover, .recommended-games .slick-next:hover {
-      background: url("/wp-content/themes/mortalkombat/img/slider-arrow-bg-hover.png") 0 0 no-repeat; }
+      background: url("../img/slider-arrow-bg-hover.png") 0 0 no-repeat; }
     .recommended-games .slick-prev:active, .recommended-games .slick-next:active {
-      background: url("/wp-content/themes/mortalkombat/img/slider-arrow-bg-active.png") 0 0 no-repeat; }
+      background: url("../img/slider-arrow-bg-active.png") 0 0 no-repeat; }
   .recommended-games .slick-prev {
     left: -60px; }
   .recommended-games .slick-next {
@@ -684,7 +684,7 @@ img {
 	
 
 .game-offer {
-  background: #1f8434;
+  background: #467d55;
   padding: 30px;
   margin-bottom: 30px; }
   .game-offer h2, .game-offer h3 {
@@ -715,7 +715,7 @@ img {
     border-radius: 20px;
     margin-bottom: 30px; }
   .game-offer__window {
-    background: #1e8333;
+    background: #6a383b;
     border-radius: 20px;
     margin-bottom: 30px; }
     .game-offer__window__frame {
@@ -820,7 +820,7 @@ img {
     filter: progid:dximagetransform.microsoft.gradient(startColorstr="#d0a3e7", endColorstr="#82b0f5", GradientType=1); }
 
 .game-day {
-  background: #1f8434;
+  background: #467d55;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -871,7 +871,7 @@ img {
   padding: 30px;
   border-radius: 20px;
   border: 1px solid #9eb7b9;
-  background: #f9f8fa;
+  background: #fedfb3;
   color: #606b6d;
   margin-bottom: 30px; }
   
@@ -938,7 +938,7 @@ color: #5D6B6D;
     width: 50px;
     height: 50px;
     margin-right: 10px;
-    background: url("/wp-content/themes/mortalkombat/img/circle-bg-normal.png") 0 0 no-repeat; }
+    background: url("../img/circle-bg-normal.png") 0 0 no-repeat; }
     .pagination li a {
       display: flex;
       align-items: center;
@@ -952,12 +952,12 @@ color: #5D6B6D;
         left: 0;
         right: 0; }
     .pagination li:hover {
-      background: url("/wp-content/themes/mortalkombat/img/circle-bg-hover.png") 0 0 no-repeat; }
+      background: url("../img/circle-bg-hover.png") 0 0 no-repeat; }
     .pagination li.current, .pagination li:active {
-      background: url("/wp-content/themes/mortalkombat/img/circle-bg-active.png") 0 0 no-repeat; }
+      background: url("../img/circle-bg-active.png") 0 0 no-repeat; }
 
 .footer {
-  background: #150d0a; }
+  background: #0a0d14; }
   .footer-flex {
     display: flex;
     align-items: center;
@@ -976,7 +976,7 @@ color: #5D6B6D;
       .footer-menu ul li a:hover {
         text-decoration: underline; }
 .block_review {
-    background: #1f8434;
+    background: #467d55;
     padding: 30px;
     margin-bottom: 30px;
     border-radius: 20px;
